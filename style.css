@@ -1,3 +1,39 @@
 body {
-    background-color: grey;
+  background-color: #404045;
+  text-align: center;
+}
+
+.text {
+  color: #dddddd;
+  font-family: helvetica;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#click {
+  background-color: #606065;
+  width: 30vw;
+  aspect-ratio: 5/2;
+  border: none;
+  border-radius: 2vw;
+  font-size: 6vw;
+}
+
+#click:active {
+  background-color: #707075;
+  transform: scale(1.05);
+  transition: transform 20ms ease-in-out;
+}
+
+#counter {
+  font-size: 4vw;
 }
