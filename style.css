@@ -21,11 +21,11 @@ body {
 
 #click {
   background-color: #606065;
-  width: 30vw;
+  width: 20vw;
   aspect-ratio: 5/2;
   border: none;
-  border-radius: 2vw;
-  font-size: 6vw;
+  border-radius: 1vw;
+  font-size: 4vw;
 }
 
 #click:active {
@@ -35,5 +35,5 @@ body {
 }
 
 #counter {
-  font-size: 4vw;
+  font-size: 3vw;
 }
