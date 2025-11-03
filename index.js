@@ -1,8 +1,8 @@
-let clicks = 0;
+let clix = 0;
 
 function clik() {
-  clicks++
-  elem("counter").innerHTML = clicks + " clicks :3";
+  clix++
+  elem("counter").innerHTML = clix + " clix :3";
 }
 
 function elem(id) {
