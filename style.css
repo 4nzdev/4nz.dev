@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600');
+
 body {
   background-color: #404045;
-  text-align: center;
 }
 
+/* Classes CSS */
 .text {
   color: #dddddd;
-  font-family: helvetica;
+  font-family: "Inconsolata";
 }
 
 .center {
@@ -19,10 +21,34 @@ body {
   cursor: pointer;
 }
 
+
+
+/* Main CSS */
+#header {
+  font-size: 3vw;
+  width: 12.5vw;
+  
+  border: 4px solid #dddddd;
+  border-style: none solid solid none;
+  border-bottom-right-radius: 1vw;
+}
+
+
+
+/* Clix Game CSS */
+#game {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  
+  text-align: center;
+}
+
 #click {
   background-color: #606065;
   width: 20vw;
-  aspect-ratio: 5/2;
+  aspect-ratio: 3/1;
   border: none;
   border-radius: 1vw;
   font-size: 4vw;
@@ -35,5 +61,5 @@ body {
 }
 
 #counter {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
