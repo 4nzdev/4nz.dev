@@ -1,5 +1,5 @@
 let clix = 0;
-let to = setTimeout();
+let to = setTimeout(() => {});
 
 function clik() {
   clix++
