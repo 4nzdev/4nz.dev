@@ -6,6 +6,9 @@ function clik() {
   clix++
   elem("counter").innerHTML = clix + " clix :3";
 
+  clearTimeout(to);
+  clearTimeout(to2);
+  
   to = setTimeout(() => {
     elem("counter").innerHTML = clix + " clix :<";
   }, 3000)
@@ -14,8 +17,6 @@ function clik() {
     elem("counter").innerHTML = clix + " clix >:O";
   }, 10000)
 
-  clearTimeout(to);
-  clearTimeout(to2);
   
 }
 
